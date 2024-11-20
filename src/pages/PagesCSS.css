@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
