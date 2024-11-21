@@ -1,9 +1,10 @@
 import './navbar.css';
+
 export const PagesHeader = () => {
 
 function MyNavbar() {
     return (
-        <div>
+        <>
             <navbar>
                 <h1 className="title"> Blue Brigde </h1>
                 {/* Will edit the header */}
@@ -12,9 +13,9 @@ function MyNavbar() {
                     <li>Donation</li>
                     <li>Volunteers</li>
                 </ul>
-            </div>
+            </navbar>
         </>
     );
+    }
 }
-
 export default PagesHeader;
