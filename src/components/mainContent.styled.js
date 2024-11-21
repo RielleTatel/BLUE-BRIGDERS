@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 //***************** General Components ********************* //
 
-    export const Header = styled.header`
+export const Header = styled.header`
         background-color: #162f65;
         font-family: Tahoma;
+        position: fixed;
         display: flex; 
         justify-content: center; 
         align-items: center; 
@@ -30,14 +31,13 @@ import styled from "styled-components";
             font-size: 20px;
             word-spacing: 20px; 
         }
-    `; 
-
+    ` 
     export const Footer = styled.footer `
     background-color: #162f65;
     display: flex; 
     width: 100%;
     height: 80px;
-    `; 
+    `;
 
     export const LogoContainer = styled.div` 
     background-color: #162f65;
@@ -151,13 +151,13 @@ export const InformationStyled = styled.div`
 
 //***************** Donation Page ********************* //
 
-    export const ImageContainer = styled.div `
+export const ImageContainer = styled.div`
         background-color: aqua;
         border-radius: 20px;
         width: 360px;
         height: 360px;
     `
-    export const DonationTitle = styled.h2`
+export const DonationTitle = styled.h2`
     font-size: 1.8rem;
     color: #132753;
     text-align: center;
@@ -165,15 +165,15 @@ export const InformationStyled = styled.div`
     font-weight: bold;
     `;
 
-    // Buttons container
-    export const ButtonContainer = styled.div`
+// Buttons container
+export const ButtonContainer = styled.div`
     display: flex;
     gap: 20px;
     margin: 20px 0;
     `;
 
-    // Styled buttons
-    export const DonationButton = styled.button`
+// Styled buttons
+export const DonationButton = styled.button`
     background-color: ${(props) => (props.isSecondary ? "#e1a736" : "#162f65")};
     color: white;
     font-size: 1rem;
@@ -189,8 +189,8 @@ export const InformationStyled = styled.div`
     }
     `;
 
-    // Donation list
-    export const DonationList = styled.div`
+// Donation list
+export const DonationList = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -213,7 +213,7 @@ export const InformationStyled = styled.div`
 
 //***************** Donation Page ********************* //
 
-    export const CircularGraph = styled.div`
+export const CircularGraph = styled.div`
     position: relative;
     width: 150px;
     height: 150px;
@@ -263,7 +263,7 @@ export const InformationStyled = styled.div`
 
 //***************** Payment Page ********************* //
 
-  export const Container = styled.div`
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,7 +272,7 @@ export const InformationStyled = styled.div`
     padding: 20px;
   `;
 
-  export const DonationSection = styled.div`
+export const DonationSection = styled.div`
     background: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -289,7 +289,7 @@ export const InformationStyled = styled.div`
     }
   `;
 
-  export const DonationButtons = styled.div`
+export const DonationButtons = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -310,7 +310,7 @@ export const InformationStyled = styled.div`
     }
   `;
 
-  export const InputWrapper = styled.div`
+export const InputWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -336,7 +336,7 @@ export const InformationStyled = styled.div`
     }
   `;
 
-  export const PaymentOptions = styled.div`
+export const PaymentOptions = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -365,7 +365,7 @@ export const InformationStyled = styled.div`
     }
   `;
 
-  export const DecorativeContainer = styled.div`
+export const DecorativeContainer = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -376,7 +376,7 @@ export const InformationStyled = styled.div`
     }
   `;
 
-  export const FooterWrapper = styled(Footer)`
+export const FooterWrapper = styled(Footer)`
     position: absolute;
     bottom: 0;
   `;
