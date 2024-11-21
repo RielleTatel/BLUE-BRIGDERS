@@ -2,50 +2,12 @@ import styled from "styled-components";
 
 //***************** General Components ********************* //
 
-export const Header = styled.header`
-        background-color: #162f65;
-        font-family: Tahoma;
-        
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        text-align: center;
-        width: 100%;
-        height: 80px;
-
-        .logoContainer {
-            width: 15%;
-            height: 20%;
-            left: 7%;
-            display: flex;
-            justify-content: center; 
-            align-items: center; 
-            position: absolute;
-            color: #e1a736;
-        }
-
-        p {
-            display: flex;
-            flex-direction: row;
-            color: white;
-            font-size: 20px;
-            word-spacing: 20px; 
-        }
-    ` 
     export const Footer = styled.footer `
     background-color: #162f65;
     display: flex; 
     width: 100%;
     height: 80px;
     `;
-
-    export const LogoContainer = styled.div` 
-    background-color: #162f65;
-    display: flex; 
-    width: 100px;
-    height: 100px;
-    `
-
 
 //***************** Donation Page ********************* //
 

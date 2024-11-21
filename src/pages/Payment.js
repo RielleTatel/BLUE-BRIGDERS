@@ -1,5 +1,5 @@
 import './PagesCSS.css';
-import PagesHeader from '../components/header';
+import NavigationBar from '../components/NavigationBar/navbar.js';
 import { Footer, 
     Container, 
     DonationSection, 
@@ -12,8 +12,9 @@ import { Footer,
 
 export const Payment = () => {
     return (
+      <>
+      <NavigationBar />
       <Container>
-        <PagesHeader />
         <DonationSection>
           <h2>Enter your donation</h2>
           <DonationButtons>
@@ -51,6 +52,7 @@ export const Payment = () => {
         </DecorativeContainer>
         <FooterWrapper />
       </Container>
+      </>
     );
   };
   

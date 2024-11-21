@@ -1,9 +1,9 @@
 import './navbar.css';
-export const PagesHeader = () => {
+export const NavigationBar = () => {
 
     return (
         <div>
-            <navbar>
+            <navbar className="navigationBar">
                 <h1 className="title"> Blue Brigde </h1>
                 {/* Will edit the header */}
                 <ul>
@@ -16,4 +16,4 @@ export const PagesHeader = () => {
     );
 };
 
-export default PagesHeader;
+export default NavigationBars;

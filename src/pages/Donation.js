@@ -1,5 +1,5 @@
 import './PagesCSS.css';
-import PagesHeader from '../components/header';
+import NavigationBar from '../components/NavigationBar/navbar.js';
 import { Footer } from '../components/mainContent.styled';
 import { MainContent } from '../components/DonationaPageComponents/content';
 import { InformationContainer  } from '../components/DonationaPageComponents/informationContainer';
@@ -7,7 +7,7 @@ import { InformationContainer  } from '../components/DonationaPageComponents/inf
 export const Donation = () => { 
   return (
     <div> 
-      <PagesHeader/> 
+      <NavigationBar/> 
       <div className='mainContent'> 
         <MainContent/> 
         <InformationContainer/>
