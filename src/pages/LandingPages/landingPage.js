@@ -1,6 +1,5 @@
 import React from 'react'
 import MyNavbar from '../../components/NavigationBar/navbar'
-import "./LandingPage.css";
 export const LandingPage = () => {
   return (
     <>

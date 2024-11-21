@@ -1,7 +1,7 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Donation } from './pages/Donation';
 import { Volunteer } from './pages/Volunteer';
-import { Payment } from './pages/Payment';
+import { Payment } from './pages/payment page/Payment';
 import LandingPage from './pages/LandingPages/LandingPage';
 import './App.css';
 
