@@ -15,8 +15,19 @@ export const LandingPage = () => {
         </div>
       </div>
       <div className='section3'>
+
         <h1 className='section3-title'>CALL FOR DONATION</h1>
         <h2 className='section3-subtitle'>Each cent will go directly to the lives of those who need it the most.</h2>
+
+        <div className='card'>
+          <pictureContainer />
+          <div className='grid-container'>
+            <div className='card-body'>
+              <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
+            </div>
+          </div>
+        </div>
+
       </div>
     </>
   )

@@ -41,3 +41,13 @@
 .section3-subtitle {
   padding-left: 50px;
 }
+.grid-container {
+  display: grid;
+}
+.card {
+  width: 80%;
+  margin-left: 50px;
+  background-color: white;
+  color: black;
+  padding: 20px 0px;
+}
