@@ -7,10 +7,12 @@ function MyNavbar() {
                     <h1>Blue Ridge</h1>
                 </div>
                 <ul>
-                    <li>Home</li>
-                    <li>Donation</li>
-                    <li>Volunteers</li>
+                    <li><a>Home</a></li>
+                    <li><a>Donation</a></li>
+                    <li><a>Volunteers</a></li>
+                    <li><a>Goods</a></li>
                 </ul>
+                <input placeholder="Looking for something?"></input>
             </div>
         </>
     );

@@ -9,6 +9,7 @@
   color: var(--tertiary-color);
   justify-content: space-around;
   background-color: #162f65;
+  align-items: center;
 }
 .logo {
   color: gold;
@@ -20,14 +21,26 @@ ul {
   color: white;
 }
 a {
-  color: red;
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  font-size: 20px;
 }
 a:hover {
   color: rgb(195, 0, 255);
+  cursor: pointer;
+  text-decoration: underline;
 }
 li {
   list-style-type: none;
+}
+
+input {
+  padding: 10px 100px;
+  border-radius: 30px;
+  border: none;
+}
+input:hover {
+  padding: 10px 150px;
 }
 @media (max-width: 900px) {
   .navbar {
