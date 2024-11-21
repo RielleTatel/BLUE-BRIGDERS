@@ -1,15 +1,19 @@
-.App {
-  text-align: center;
-}
+  .App {
+    text-align: center;
+  }
 
-* {
-  margin: 0;
-}
+  * {
+    margin: 0;
+  }
 
-.mainContent {
-  display: flex;
-  flex-direction: row;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-}
+  body {
+    min-height: 100vh;
+  }
+
+  .mainContent {
+    display: flex;
+    flex-direction: row;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  } 

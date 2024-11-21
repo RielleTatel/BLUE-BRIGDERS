@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Header = styled.header`
         background-color: #162f65;
         font-family: Tahoma;
-        position: fixed;
+        
         display: flex; 
         justify-content: center; 
         align-items: center; 
@@ -13,9 +13,13 @@ export const Header = styled.header`
         width: 100%;
         height: 80px;
 
-        h1 {
-            font-size: 24px;
-            left: 10%;
+        .logoContainer {
+            width: 15%;
+            height: 20%;
+            left: 7%;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
             position: absolute;
             color: #e1a736;
         }
@@ -27,13 +31,20 @@ export const Header = styled.header`
             font-size: 20px;
             word-spacing: 20px; 
         }
-    `
-export const Footer = styled.footer`
+    ` 
+    export const Footer = styled.footer `
     background-color: #162f65;
     display: flex; 
     width: 100%;
     height: 80px;
     `;
+
+    export const LogoContainer = styled.div` 
+    background-color: #162f65;
+    display: flex; 
+    width: 100px;
+    height: 100px;
+    `
 
 
 //***************** Donation Page ********************* //
@@ -369,3 +380,44 @@ export const FooterWrapper = styled(Footer)`
     position: absolute;
     bottom: 0;
   `;
+
+
+
+//***************** Landing Page ********************* //
+
+  export const FactContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  `;
+
+  export const WaveBanner = styled.div`
+    position: relative;
+    background: linear-gradient(to right, #f2c94c, #f2994a);
+    color: #132753;
+    font-family: "Tahoma", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 0 0 40px 40px;
+    width: 90vw;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background-color: #fff;
+      border-radius: 50% 50% 0 0; /* Creates the wave */
+      transform: translateY(40%);
+    }
+  `;
+
+    
