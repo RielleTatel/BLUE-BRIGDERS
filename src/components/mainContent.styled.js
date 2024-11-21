@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Header = styled.header`
         background-color: #162f65;
         font-family: Tahoma;
-        position: fixed;
+        
         display: flex; 
         justify-content: center; 
         align-items: center; 

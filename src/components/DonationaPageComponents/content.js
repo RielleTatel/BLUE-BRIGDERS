@@ -1,5 +1,5 @@
-import { PageContent } from "./mainContent.styled";
-import { ImageContainer } from "./mainContent.styled";
+import { PageContent } from "../mainContent.styled";
+import { ImageContainer } from "../mainContent.styled";
 import picture2 from "./assets/picture2.jpg"; 
 
 export const MainContent = () => { 

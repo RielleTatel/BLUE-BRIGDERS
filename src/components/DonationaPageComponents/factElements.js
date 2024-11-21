@@ -6,7 +6,7 @@ import {
   Title,
   Description,
   FooterDecoration,
-} from "./mainContent.styled";
+} from "../mainContent.styled";
 
 export const FactElement = () => {
   return (

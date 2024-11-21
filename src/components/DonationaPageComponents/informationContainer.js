@@ -7,7 +7,7 @@ import {
   ButtonContainer,
   DonationButton,
   DonationList,
-} from "./mainContent.styled";
+} from "../mainContent.styled";
 
 export const InformationContainer = () => {
   const targetAmount = 20000; 
