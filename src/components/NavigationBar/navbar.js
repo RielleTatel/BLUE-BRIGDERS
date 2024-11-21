@@ -1,19 +1,21 @@
 import './navbar.css';
-export const PagesHeader = () => {
 
+
+function MyNavbar() {
     return (
-        <div>
-            <navbar>
-                <h1 className="title"> Blue Brigde </h1>
-                {/* Will edit the header */}
+        <>
+            <div className="navbar">
+                <div className="logo">
+                    <h1>Blue Ridge</h1>
+                </div>
                 <ul>
+                    <li>Home</li>
                     <li>Donation</li>
-                    <li>Volunteer</li>
-                    <li>Goods</li>
+                    <li>Volunteers</li>
                 </ul>
-            </navbar>
-        </div>
+            </div>
+        </>
     );
-};
+}
 
-export default PagesHeader;
+export default MyNavbar;
