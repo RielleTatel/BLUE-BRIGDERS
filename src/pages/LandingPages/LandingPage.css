@@ -26,7 +26,7 @@
   width: 30%;
   border-radius: 30px;
   border: 1px solid wheat;
-  color: white;
+  color: black;
 }
 .section3 {
   width: 100%;
@@ -36,4 +36,8 @@
   align-items: start;
 }
 .section3-title {
+  padding-left: 50px;
+}
+.section3-subtitle {
+  padding-left: 50px;
 }
