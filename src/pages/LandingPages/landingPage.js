@@ -1,6 +1,7 @@
 import React from 'react'
 import MyNavbar from '../../components/NavigationBar/navbar'
 import "./LandingPage.css";
+import MyFooter from '../../components/Footer/Footer';
 export const LandingPage = () => {
   return (
     <>
@@ -18,17 +19,35 @@ export const LandingPage = () => {
 
         <h1 className='section3-title'>CALL FOR DONATION</h1>
         <h2 className='section3-subtitle'>Each cent will go directly to the lives of those who need it the most.</h2>
+        <div className='grid-container'>
 
-        <div className='card'>
-          <pictureContainer />
-          <div className='grid-container'>
+          <div className='card'>
+            <pictureContainer />
             <div className='card-body'>
               <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
             </div>
           </div>
+
+          <div className='card'>
+            <pictureContainer />
+            <div className='card-body'>
+              <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
+            </div>
+          </div>
+
+          <div className='card'>
+            <pictureContainer />
+            <div className='card-body'>
+              <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
+            </div>
+          </div>
+
+
         </div>
 
-      </div>
+      </div >
+      <div className='section4'></div>
+      <MyFooter></MyFooter>
     </>
   )
 }
