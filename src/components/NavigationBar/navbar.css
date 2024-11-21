@@ -1,0 +1,40 @@
+.navbar {
+  width: 100vw;
+  top: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  justify-content: space-around;
+  background-color: #162f65;
+}
+.logo {
+  color: gold;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(195, 0, 255);
+}
+li {
+  list-style-type: none;
+}
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+  }
+  ul {
+    display: none;
+  }
+}

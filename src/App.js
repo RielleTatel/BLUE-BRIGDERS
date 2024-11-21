@@ -2,15 +2,15 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Donation } from './pages/Donation';
 import { Volunteer } from './pages/Volunteer';
 import { Payment } from './pages/Payment';
-import { LandingPage } from './components/pages/LandingPages/landingPage.js'; 
+import LandingPage from './pages/LandingPages/LandingPage';
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-      <Router> 
-        <Routes> 
+      <Router>
+        <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/page1" element={<Volunteer />} />
           <Route path="/page2" element={<Payment />} />
