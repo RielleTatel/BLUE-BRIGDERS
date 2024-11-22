@@ -16,7 +16,11 @@ export const LandingPage = () => {
       <div className='section3'>
         <h1 className='section3-title'>CALL FOR DONATION</h1>
         <h2 className='section3-subtitle'>Each cent will go directly to the lives of those who need it the most.</h2>
-        <h1> dasdasdasdsdss </h1>
+        <h1> POTANGINAAMOOOOOOOO </h1>
+
+
+
+
       </div>
     </>
   )
