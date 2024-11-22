@@ -69,7 +69,42 @@ export const LandingPage = () => {
         </div>
 
       </div >
-      <div className='section4'></div>
+      <div className='section4'>
+        <div className='section4-container'>
+          <div className='section4-image-container'>
+            <img src='./2.png'></img>
+          </div>
+          <div className='section4-text-container'>
+            <h1 className='section4-text-container-header'>
+              <span className='call'>CALL </span><span className='for'>FOR</span> <span className='donation'>DONATION</span>
+            </h1>
+            <h1>Join us in achieving our mission by volunteering! Click the link below to be a part of the Blue Bridge journey!</h1>
+            <div className='section4-card'>
+              <div className='section4-card-image'>
+                <img src='./picture1.webp'></img>
+              </div>
+              <div className='section4-card-body'>
+                <h1>Barangay Tumaga</h1>
+                <div className='status-bar'> <div className='completed'> .</div>  </div>
+                <h2>12 Volunteers</h2>
+              </div>
+            </div>
+            <div className='section4-card'>
+              <div className='section4-card-image'>
+                <img src='./picture1.webp'></img>
+              </div>
+              <div className='section4-card-body'>
+                <h1>Barangay Mercedes</h1>
+                <div className='status-bar'> <div className='completed'> .</div>  </div>
+                <h2>12 Volunteers</h2>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
       <MyFooter></MyFooter>
     </>
   )

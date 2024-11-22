@@ -149,3 +149,76 @@
   width: 100%;
   height: 100vh;
 }
+.section4-container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+.section4-image-container {
+  width: 30%;
+}
+
+.section4-image-container img {
+  width: 100%;
+}
+.section4-text-container-header {
+  justify-self: left;
+  font-size: 60px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.section4-text-container {
+  width: 70%;
+  padding: 50px;
+  text-align: justify;
+}
+.section4-text-container .donation {
+  color: gold;
+}
+.section4-text-container .for {
+  color: #082053;
+}
+.section4-text-container .call {
+  color: #133a8d;
+}
+.section4-card {
+  margin-top: 20px;
+
+  width: 100%;
+  background-color: rgb(212, 210, 210);
+  border-radius: 50px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.section4-card-image {
+  overflow: hidden;
+  width: 15%;
+  height: 20%;
+  object-fit: contain;
+}
+.section4-card-image img {
+  width: 130px;
+  transform: scale(0.9);
+  height: 13vh;
+  border-radius: 50%;
+}
+
+.section4-card .status-bar {
+  background-color: blue;
+  width: 100%;
+  height: 3vh;
+  border-radius: 50px;
+}
+.section4-card .status-bar .completed {
+  background-color: gold;
+  width: 30%;
+  height: 3vh;
+  border-radius: 50px;
+}
+
+.section4-card-body {
+  padding-left: 30px;
+  width: 100%;
+}
