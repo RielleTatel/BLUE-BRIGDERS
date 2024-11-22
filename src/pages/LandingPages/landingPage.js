@@ -36,25 +36,34 @@ export const LandingPage = () => {
         <div className='grid-container'>
 
           <div className='card'>
-            <pictureContainer />
+            <div className='picture-container'>
+              <img src='./picture1.webp' alt='event-image'></img>
+            </div>
+
+            <div className='card-body'>
+              <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
+            </div>
+          </div>
+          <div className='card'>
+            <div className='picture-container'>
+              <img src='./picture1.webp' alt='event-image'></img>
+            </div>
+
+            <div className='card-body'>
+              <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
+            </div>
+          </div>
+          <div className='card'>
+            <div className='picture-container'>
+              <img src='./picture1.webp' alt='event-image'></img>
+            </div>
+
             <div className='card-body'>
               <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
             </div>
           </div>
 
-          <div className='card'>
-            <pictureContainer />
-            <div className='card-body'>
-              <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
-            </div>
-          </div>
 
-          <div className='card'>
-            <pictureContainer />
-            <div className='card-body'>
-              <h1>Fundraising for those affected by the recent fire in barangay Pasonanca</h1>
-            </div>
-          </div>
 
 
         </div>
