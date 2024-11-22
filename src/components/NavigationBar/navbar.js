@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./navbar.css";
+
 function MyNavbar() {
     return (
         <>
@@ -7,10 +9,10 @@ function MyNavbar() {
                     <h1>Blue Ridge</h1>
                 </div>
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Donation</a></li>
-                    <li><a>Volunteers</a></li>
-                    <li><a>Goods</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/page1">Donation</Link></li>
+                    <li><Link to="/page2">Volunteers</Link></li>
+                    <li><Link to="/goods">Goods</Link></li>
                 </ul>
                 <input placeholder="Looking for something?"></input>
             </div>
