@@ -2,19 +2,26 @@ import React from 'react'
 import MyNavbar from '../../components/NavigationBar/navbar'
 import "./LandingPage.css";
 import MyFooter from '../../components/Footer/Footer';
+import BlueBorder from '../../components/BlueBorder/BlueBorder';
 export const LandingPage = () => {
   return (
     <>
       <MyNavbar />
       <div className='section1'>
       </div>
+      <BlueBorder />
+
       <div className='section2'>
         {/* Success Story */}
         <div className='section2-title'>
-          <h1>Success Story</h1>
           <h1>START YOU FUND RAISING JOURNEY</h1>
         </div>
+        <div className='subhead'><h1>SUCCESS <span className='subhead-span'>STORIES</span></h1></div>
       </div>
+
+
+
+
       <div className='section3'>
 
         <h1 className='section3-title'>CALL FOR DONATION</h1>
