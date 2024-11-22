@@ -4,7 +4,7 @@ function MyNavbar() {
         <>
             <div className="navbar">
                 <div className="logo">
-                    <img src="../assets/Logo.png" alt="BlueRidgeLogo" />
+                    <img src="/Logo.png" alt="BlueRidgeLogo" />
                 </div>
                 <ul>
                     <li><a>Home</a></li>

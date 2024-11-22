@@ -1,7 +1,7 @@
 .navbar {
   width: 100vw;
   top: 0;
-  padding: 30px;
+  padding: 5px 30px;
   display: flex;
   flex-direction: row;
   position: fixed;
@@ -13,7 +13,11 @@
   align-items: center;
 }
 .logo {
-  color: gold;
+  width: 100px;
+}
+.logo img {
+  width: 100%;
+  transform: scale(2);
 }
 ul {
   display: flex;
