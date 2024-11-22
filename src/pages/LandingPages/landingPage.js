@@ -7,11 +7,11 @@ export const LandingPage = () => {
   return (
     <>
       <MyNavbar />
-      <div className='section1'>
+      <div className='section1' id='home'>
       </div>
       <BlueBorder />
 
-      <div className='section2'>
+      <div className='section2' id='volunteer'>
         {/* Success Story */}
         <img className="background-image1" src="/Hands1.png" alt="Decorative" />
         <img className="background-image2" src="/Hands2.png" alt="Decorative" />
@@ -29,7 +29,7 @@ export const LandingPage = () => {
 
 
 
-      <div className='section3'>
+      <div className='section3' id='donation'>
 
         <h1 className='section3-title'><span className='call'>CALL </span><span className='for'>FOR</span> <span className='donation'>DONATION</span></h1>
         <h2 className='section3-subtitle'>Each cent will go directly to the lives of those who need it the most.</h2>
