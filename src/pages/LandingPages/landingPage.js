@@ -13,10 +13,17 @@ export const LandingPage = () => {
 
       <div className='section2'>
         {/* Success Story */}
+        <img className="background-image1" src="/Hands1.png" alt="Decorative" />
+        <img className="background-image2" src="/Hands2.png" alt="Decorative" />
         <div className='section2-title'>
           <h1>START YOU FUND RAISING JOURNEY</h1>
         </div>
-        <div className='subhead'><h1>SUCCESS <span className='subhead-span'>STORIES</span></h1></div>
+        <div className='subhead'>
+          <h1>SUCCESS <span className='subhead-span'>STORIES</span></h1>
+        </div>
+        <div className='disaster-image-container'>
+          <img src='./picture1.webp'></img>
+        </div>
       </div>
 
 
@@ -24,7 +31,7 @@ export const LandingPage = () => {
 
       <div className='section3'>
 
-        <h1 className='section3-title'>CALL FOR DONATION</h1>
+        <h1 className='section3-title'><span className='call'>CALL </span><span className='for'>FOR</span> <span className='donation'>DONATION</span></h1>
         <h2 className='section3-subtitle'>Each cent will go directly to the lives of those who need it the most.</h2>
         <div className='grid-container'>
 
